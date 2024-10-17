@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>*Umbanda & Ponto*</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	<header>
+    	<nav>
+        	<ul>
+            	  <li><a href="#Home">Home</a></li>	
+                  <li><a href="#Orixas">Orixas</a></li>
+                  <li><a href="#Linhas">Linhas</a></li>
+                  <li><a href="#Imagens">Imagens</a></li>
+                  <li><a href="#Ervas">Ervas</a></li>
+                  <li><a href="#Banhos">Banhos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="Home" class="banner"><img src="Imagens/banner novo.jpg"></section>
+    
+    <section id="Orixas" class="flexivel">
+    	<article class="borda0" data-anima="esquerda">
+        	<div id="menu">
+	           <ul>
+                <li><a href="Oxalá.html" target="_blank">Oxalá</a></li>
+                <li><a href="Obaluaie.html" target="_blank">Obaluaiê</a></li>
+                <li><a href="Omulú.html"target="_blank">Omulú</a></li>
+                <li><a href="Exu.html"target="_blank">Exú</a></li>
+        
+               </ul>
+            </div>
+        </article>
+        
+        <article class="borda0" data-anima="centro"> 
+        	<div id="menu">
+            	<ul>
+                	<li><a href="Oxum.html"target="_blank">Oxum</a></li>
+                    <li><a href="Iansa.html"target="_blank">Iansâ</a></li> 
+                    <li><a href="Iemanja.html"target="_blank">Iemanjá</a></li>
+                    <li><a href="Nanã Buruquê.html"target="_blank">Nãna Buruque</a></li>
+                    <li><a href="Erês.html"target="_blank">Erês</a></li>                 	
+            	</ul>
+            </div>    
+        </article>
+        
+        <article class="borda0" data-anima="direita">
+        	<div id="menu">
+            	<ul>
+                	<li><a href="Oxossi.html"target="_blank">Oxossi</a></li>
+                    <li><a href="Ogum.html"target="_blank">Ogum</a></li> 
+                    <li><a href="Oxumare.html"target="_blank">Oxumare</a></li> 
+                    <li><a href="Xangô.html"target="_blank">Xângo</a></li>                          	
+                </ul>
+            </div>
+        </article>
+    </section>
+    
+    
+    <section id="Linhas" class="flexivel">
+		<article class="borda1" data-anima="esquerda">Baianos</article>
+        <article class="borda0" data-anima="esquerda">Caboclos</article>
+        <article class="borda0" data-anima="esquerda">Boiadeiros</article>   
+        <article class="borda0" data-anima="centro">Pretos Velhos</article> 
+        <article class="borda0" data-anima="centro">Marinheiros</article>
+        <article class="borda0" data-anima="centro">Malandros</article>
+        <article class="borda0" data-anima="direita">Exus</article>
+        <article class="borda0" data-anima="direita">Pombas Giras</article>
+        <article class="borda0" data-anima="direita">Exus Mirins</article>   
+           
+    </section>
+    
+    <section id="Imagens" class="flexivel">
+    	<article class="borda0 conteinerImagens" data-anima="esquerda" >
+            <img src="Imagens/tumb01.jpg" class="mini" onclick="cliqueModal(this)" alt="">
+            <img src="Imagens/tumb02.jpg" class="mini" onclick="cliqueModal(this)" alt="">
+            <img src="Imagens/tumb03.jpg" class="mini" onclick="cliqueModal(this)" alt="">
+            <img src="Imagens/tumb04.jpg" class="mini" onclick="cliqueModal(this)" alt="">
+        </article>
+
+        <article class="borda0 conteinerImagens" data-anima="centro" >
+            <img src="Imagens/tumb05.jpg" class="mini" onclick="cliqueModal(this)" alt="">
+            <img src="Imagens/tumb06.jpg" class="mini" onclick="cliqueModal(this)" alt="">
+            <img src="Imagens/tumb07.jpg" class="mini" onclick="cliqueModal(this)" alt="">
+            <img src="Imagens/tumb08.jpg" class="mini" onclick="cliqueModal(this)" alt="">
+        </article>   
+
+        <article class="borda0 conteinerImagens" data-anima="direita" >
+            <img src="Imagens/tumb09.jpg" class="mini" onclick="cliqueModal(this)" alt="">
+            <img src="Imagens/tumb10.jpg" class="mini" onclick="cliqueModal(this)" alt="">
+            <img src="Imagens/tumb11.jpg" class="mini" onclick="cliqueModal(this)" alt="">
+            <img src="Imagens/tumb12.jpg" class="mini" onclick="cliqueModal(this)" alt="">
+        </article>    
+    </section>
+    
+    <section id="Ervas" class="flexivel">
+        <article class="borda0" data-anima="centro">
+             Ervas
+        </article>
+    </section>
+    
+    <section id="Banhos" class="flexivel">
+        <article class="borda0" data-anima="centro">
+            Banhos
+        </article>
+    </section>
+    
+    
+    <footer>
+    </footer>
+
+    <div id="janelaModal" class="janelaModal escondeJanelaModal">
+        <span id="btnFechar" class="fecharModal">X</span>
+        <img id="imgModal" class="imgModal">
+        <div id="txtModal" class="txtModal"></div>     
+    </div>
+
+    <script type="text/javascript" src="scripts.js"></script>
+  
+</body>
+
+</html>
